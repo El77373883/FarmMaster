@@ -1,0 +1,19 @@
+name: FarmMaster
+version: 1.0.0-Premium
+main: com.farmmaster.FarmMaster
+api-version: '1.21'
+authors: [TuNombre]
+description: El plugin de autofarm definitivo, profesional y premium.
+commands:
+  farmmaster:
+    description: Comando principal de FarmMaster.
+    aliases: [fm, farm]
+    permission: farmmaster.use
+    permission-message: "<red>No tienes permiso para usar este comando.</red>"
+permissions:
+  farmmaster.admin:
+    description: Acceso total a la administración de FarmMaster.
+    default: op
+  farmmaster.use:
+    description: Permite a los jugadores usar sus propias granjas.
+    default: true
