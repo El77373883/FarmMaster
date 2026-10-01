@@ -1,0 +1,13 @@
+announcements:
+  prefix: "<gradient:#FFD700:#FFA500><bold>FarmMaster</bold></gradient> <dark_gray>»</dark_gray>"
+  farm-created: "<green>¡Has creado una granja exitosamente!</green>"
+  farm-upgraded: "<yellow>¡Tu granja ha subido al nivel %level%!</yellow>"
+  no-permission: "<red>No tienes permiso para hacer esto.</red>"
+  fuel-low: "<red>¡Alerta! A tu granja le queda poca gasolina.</red>"
+recoleccion:
+  metodo: "COFRE"
+  cofre-lleno: "DETENER"
+  permitir-barril: true
+  permitir-cofre-doble: true
+  aviso-cofre-lleno: true
+  mensaje-cofre-lleno: "<red>¡Tu cofre de recolección está lleno! La granja se ha detenido.</red>"
